@@ -1,0 +1,33 @@
+:root {
+    --primary-color: #ffb054;
+    --background-color: #000d1a;
+    --secondary-color: #ffc663;
+    --light-background-color: #f0a050;
+    --oldschool-color: #14b814;
+
+}
+
+body {
+    background-color: var(--background-color);
+}
+
+h1 {
+    color: var(--oldschool-color);
+	font-size: 3rem;
+	font-weight: bold;
+	padding: 5rem 0;
+	font-family: serif;
+	font-style: italic;
+}
+
+h2 {
+    color: var(--secondary-color);
+}
+
+p {
+    color: var(--secondary-color);
+}
+
+footer {
+    color: var(--secondary-color);
+}
