@@ -4,7 +4,13 @@
     --secondary-color: #ffc663;
     --light-background-color: #f0a050;
     --oldschool-color: #14b814;
+    --header-font: sans-serif;
+    --header-font-size: 30px;
 
+}
+
+header {
+    font-size: var(--header-font-size);
 }
 
 body {
@@ -30,4 +36,38 @@ p {
 
 footer {
     color: var(--secondary-color);
+}
+
+body.Oldschool {
+	--oo:	#f0a050;
+
+	--o:	#14b814;
+	--om:	#109010; /* names in m */
+	--ox:	#f0a050; /* x and + icons */
+	--oi: #c0c0c0;
+	--oa:	#337400;
+	--ob: #006800;
+	--oc: #003100;
+	--od: #001000;
+
+	--bgo:#000800;
+	--fgo:#c4a988;
+
+	--gra:#555555;
+	--red:#ff0044;
+
+	--bgd:#021206;
+	--bg: #000000;
+	--bgl:#000000; /* log bg */
+	--bgm:#000602;
+	--bgi:#000000;
+	--bgh:#0b1805;
+	--bga:#008800;
+
+	--fgm:#009000;
+	--fg: #00c000;
+	--fgh:#1fef1f;
+	--fgi:#00e000;
+
+	--b: 1px solid var(--ob);
 }
