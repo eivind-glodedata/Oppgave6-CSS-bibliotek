@@ -41,7 +41,7 @@ longe Latio, multosque per annos errabant, acti fatis, maria omnia circum. Tanta
 const everything = document.getElementsByTagName("*");
 console.log(everything);
 
-const allPs = document.getElementsByTagName("P");
-for (let i = 0; i < allPs.length; i++) {
-  allPs[i].style.backgroundColor = "red";
-}
+//const allPs = document.getElementsByTagName("P");
+//for (let i = 0; i < allPs.length; i++) {
+//  allPs[i].style.backgroundColor = "red";
+//}
